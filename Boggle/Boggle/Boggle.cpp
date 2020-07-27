@@ -71,7 +71,7 @@ int findFirst(char board[][5], std::string word) {
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < 5; j++) {
 			if (word[0] == board[j][i]) {
-				std::cout << "x = " << i << ", y = " << j << " 위치에서 시작 " << std::endl;
+				std::cout << "x = " << i << ", y = " << j << " 위치에서 시작 입니다. " << std::endl;
 				hasWord(j, i, word);
 			}
 		}
