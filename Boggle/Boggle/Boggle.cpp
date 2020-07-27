@@ -81,7 +81,7 @@ int findFirst(char board[][5], std::string word) {
 }
 
 int main() {
-	const std::string word = "GIRL";
+	const std::string word = "PRETTY";
 
 
 	findFirst(board, word);
