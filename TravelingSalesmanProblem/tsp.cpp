@@ -38,10 +38,10 @@ int main(){
 
 double shortestPath(vector<int>& path, vector<bool>& visited, double currentLength){
 	if(path.size() == n){
-//		for(int i = 0; i < path.size(); ++i){
-//			cout << path[i] << " ";
-//		}
-//		cout << currentLength + dist[path.back()][path[0]] << endl;
+		for(int i = 0; i < path.size(); ++i){
+			cout << path[i] << " ";
+		}
+		cout << currentLength + dist[path.back()][path[0]] << endl;
 		
 		return currentLength + dist[path.back()][path[0]];
 	}
