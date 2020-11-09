@@ -9,7 +9,7 @@ c++알고리즘 연습
 - Picnic : 
   친구끼리 짝을 지어주는 프로그램 입니다.
   
-  package test;
+package test;
 
 import java.util.ArrayList;
 import java.util.Scanner;
